@@ -262,11 +262,14 @@ header .intro-text .skills {
     color: gray;
     bottom:0px;
 }
+
 #mc_embed_signup{
     float: left;
-    width: 500px;
+    width: 800px;
     text-align:!important, center;
-    margin-left: 20%;
+    
+    color: !important, darkgray;
+    padding-left: 50px;
 }
 #mce-EMAIL{
     width: 30%;
@@ -274,10 +277,11 @@ header .intro-text .skills {
     color: white;
 }
 #emailformtitle{
-    color: white;
+    
 }
 #mc-embedded-subscribe{
     background-color:!important, #2c3e50;
+    left: 70px;
     
 }
 .navbar {
@@ -634,6 +638,18 @@ footer .footer-below {
     }
     #email{
         font-size: 16px;
+    }
+    #mc_embed_signup{
+        width: 400px;
+        padding-left: 5px;
+    }
+    
+}
+/*Media Query for small & medium mobile */
+@media(max-width:375px){
+    .main-image{
+        width: 300px;
+        height: 200px;
     }
     
 }
