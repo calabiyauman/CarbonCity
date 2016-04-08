@@ -85,6 +85,9 @@ hr.gear-primary:after {
 #mce-EMAIL{
     
 }
+#plantext{
+    padding: 20px;
+}
 header {
     text-align: center;
     color: #fff;
@@ -103,7 +106,7 @@ header .container {
      background-image:url(../img/3a470e3e8591ddbc4a6366b19435fd50.gif);
     z-index: 9999;
     background-repeat: no-repeat;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 #contact-form{
     margin-top: 60px;
@@ -296,7 +299,7 @@ header .intro-text .skills {
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
-    margin-top: -20px;
+    margin-top: 0px;
 }
 
 .navbar .navbar-nav li a:focus {
