@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Web Development">
     <meta name="author" content="Doug Carnahan">
+    <meta name="keywords" content="web hosting,website design,website creation, search engine optimization,search engine marketing,email newsletter,ecommerce,e-commerce,St. Mary PA,Saint Marys PA,Pennsylvania,Elk County, Dubois, Bradford, Ridgway, Web developer, website developer,Social Media Marketing, Advertising, web design, Affordable, Cheap, Fast, Software, Application development">
     <link rel="icon" type="image/ico" href="img/favicon.ico">
 
     <title>Carbon City</title>
@@ -21,6 +22,12 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="materialize.min.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.snipcart.com/scripts/snipcart.js" id="snipcart"
+  data-api-key="MmY3NGRmZjEtNTU3Ni00YTg3LWI2NzEtNzcwMjkzOWZlMjNk"></script>
+
+<link type="text/css" href="https://cdn.snipcart.com/themes/base/snipcart.min.css" rel="stylesheet" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,10 +43,8 @@
 
   ga('create', 'UA-68654096-3', 'auto');
   ga('send', 'pageview');
-
 </script>
 </head>
-
 <body id="page-top" class="index">
  <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -53,7 +58,6 @@
                 </button>
                 <a class="navbar-brand" href="index.html">Carbon City Creative</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -64,9 +68,11 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="plans.html">Plans</a>
+                        <a href="update.html">Updates</a>
                     </li>
-                    
+                    <li class="page-scroll">
+                        <a href="plans.html">Plans</a>
+                    </li>  
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -76,24 +82,59 @@
 <header>
     <div class="container center-text">
     <h2>Ready to Launch your Idea?</h2>
-        <h4>We offer turn key Website Deployment</h4>
+        
         <hr class="star-primary">
-        <p>*This is a general guideline for pricing with us. Domain purchases and SSL certificates are sold seperately.</p>
-        <p> Ask about Monthly plans to cover Advertising &amp; Marketing! Because, Does a website exist if no one ever sees it?!</p>
-        <h5> Place orders by e-mail: </h5>
-        <p>sales@carboncitycreative.com</p>
-        <p> Or click on the Live Chat if your ready.</p>
-        <h2> What comes with our plans?</h2>
-        <p>We will School you up on how your website works!  Web analytics, data collection techniques, customer acquisition, Search Engine Optimization. All the technologies we use on Your site are included in a detailed proposal.
+    
+        <p> Ask about monthly plans that cover everything starting at $14 mo.</p>
+        
+        
+    <div class="container" id="plans">
+    <div class="row">
+        <div class="portfolio-item">
+            <h3 id="plantext">Landing Page</h3>
+            <hr class="star-primary">
+            <div id="satellite"></div>
+            <h5 class="col-md-3 md-offset-1">
+            <button id="buynow"
+    class="snipcart-add-item hoverable"
+    data-item-id="2"
+    data-item-name="Satellite"
+    data-item-price="199"
+    data-item-weight="20"
+    data-item-url="http://myapp.com/products/"
+    data-item-description="Some fresh Customers">
+    $199
+</button>
+            </h5>
+            <div class="text-center col-md-4 col-md-offset-1">
+        <p>Hosting</p>
+        <p>+Analytics basic</p>
+        <p>Mobile Friendly</p>
+        <p>Up to 1 Custom Page</p>
+        <p>1 Month Support</p>
+        <p>Stand Out</p>
         </div>
-     
-<div class="container">
+        </div>
+    </div>
+    </div>
+<div class="container" id="plans">
     <div class="row">
         <div class="portfolio-item">
             <h3 id="plantext">Satellite</h3>
             <hr class="star-primary">
             <div id="satellite"></div>
-            <h5 class="col-md-3 md-offset-1">$994</h5>
+            <h5 class="col-md-3 md-offset-1">
+            <button id="buynow"
+    class="snipcart-add-item hoverable"
+    data-item-id="2"
+    data-item-name="Satellite"
+    data-item-price="389"
+    data-item-weight="20"
+    data-item-url="http://myapp.com/products/"
+    data-item-description="Some fresh Customers">
+    $389
+</button>
+            </h5>
             <div class="text-center col-md-4 col-md-offset-1">
         <p>Hosting</p>
         <p>Webmail @yourdomain.com</p>
@@ -101,19 +142,26 @@
         <p>Mobile Friendly</p>
         <p>Up to 4 Custom Pages</p>
         <p>2 Months Support</p>
-        
         </div>
         </div>
-    
     </div>
     </div>
-    <div class="container">
+    <div class="container" id="plans">
     <div class="row">
         <div class="portfolio-item">
             <h3 id="plantext">Galactic</h3>
             <hr class="star-primary">
             <div id="galaxy"></div>
-            <h5 class="col-md-3 md-offset-1">$1800</h5>
+            <h5 class="col-md-3 md-offset-1"> <button id="buynow"
+    class="snipcart-add-item hoverable"
+    data-item-id="3"
+    data-item-name="Galactic"
+    data-item-price="798"
+    data-item-weight="20"
+    data-item-url="http://myapp.com/products/"
+    data-item-description="Some fresh Customers">
+    $798
+</button></h5>
             <div class="text-center col-md-4 col-md-offset-1">
         <p>Hosting</p>
         <p>Webmail @yourdomain.com</p>
@@ -122,21 +170,27 @@
         <p>Integrate Data</p>
         <p>Mobile Friendly</p>
         <p>Up to 8 Custom Pages</p>
-        <p>2 Months Support</p>
-                
-            </div>
-            
+        <p>2 Months Support</p>     
+            </div>  
         </div>
-    
     </div>
     </div>
-    <div class="container">
+    <div class="container" id="plans">
     <div class="row">
         <div class="portfolio-item">
             <h3 id="plantext">Interstellar</h3>
             <hr class="star-primary">
             <div id="interstellar"></div>
-            <h5 class="col-md-3 md-offset-1">$2600</h5>
+            <h5 class="col-md-3 md-offset-1"> <button id="buynow"
+    class="snipcart-add-item hoverable"
+    data-item-id="4"
+    data-item-name="Interstellar"
+    data-item-price="1500"
+    data-item-weight="20"
+    data-item-url="http://myapp.com/products/"
+    data-item-description="Some fresh Customers">
+    $1500
+</button></h5>
             <div class="text-center col-md-4 col-md-offset-1">
                 <p>Hosting</p>
         <p>Webmail @yourdomain.com</p>
@@ -145,13 +199,12 @@
         <p>MVP Web Apps</p>
         <p>Mobile Friendly</p>
         <p>Up to 12 Custom Pages</p>
-        <p>6 Months Support</p>
-                
+        <p>6 Months Support</p>       
         </div>
-    
     </div>
     </div>
     </header>
+    <script src='//cdn.zarget.com/78729/101219.js'></script>
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->

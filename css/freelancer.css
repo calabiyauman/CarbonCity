@@ -18,7 +18,12 @@ p {
 p.small {
     font-size: 16px;
 }
-
+#blog{
+    
+    width: 70%;
+    margin-left: 10%;
+    list-style: none;
+}
 
 a,
 a:hover,
@@ -152,6 +157,7 @@ header .intro-text .skills {
         font-size: 1.75em;
     }
     
+    
 }
 #services{
     background-color: #7c5d9f;
@@ -176,7 +182,7 @@ header .intro-text .skills {
     
 }
 #test{
-    background-image: url(../img/beaker.png);
+    background-image: url(../img/beakercopy.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 300px;
@@ -224,12 +230,28 @@ header .intro-text .skills {
         font-size: 1.5em;
     }
     #promotions{
-        margin-left: 5%;
+        margin-left: 4%;
     }
 }
 #stats{
    height: 60%;
    width: 80%;
+    
+}
+#buynow{
+    background-color: mediumpurple;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 50%;
+    font-size: 1em;
+}
+#buynow2{
+    background-color: mediumpurple;
+    padding: 30px;
+    float: right;
+    border-radius: 10px;
+    margin: -20%;
+    font-size: 2em;
     
 }
 #satellite{
@@ -269,15 +291,14 @@ header .intro-text .skills {
 #mc_embed_signup{
     float: left;
     width: 800px;
-    text-align:!important, center;
-    
+    margin-left: 10%;
     color: !important, darkgray;
     padding-left: 50px;
 }
 #mce-EMAIL{
     width: 30%;
     left: !important, 20px;
-    color: white;
+    color: mediumpurple;
 }
 #emailformtitle{
 <<<<<<< Updated upstream
@@ -291,6 +312,11 @@ header .intro-text .skills {
     left: 70px;
     
 }
+@media(max-width:560px){
+    #mc_embed_signup{
+        margin-left: -9%;
+    }
+}
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -302,8 +328,11 @@ header .intro-text .skills {
 }
 
 .navbar .navbar-nav {
-    letter-spacing: 1px;
-    margin-top: 0px;
+    letter-spacing: 2px;
+    margin-top: -10px;
+    margin-right: -80px;
+    
+    
 }
 
 .navbar .navbar-nav li a:focus {
@@ -349,7 +378,12 @@ section.success a.active {
     .img-responsive {
         margin-left: 1%;
     }
+    #buynow{
+        margin-left: 35%;
+    }
+    
 }
+
 
 #portfolio .portfolio-item {
     right: 0;
@@ -412,6 +446,57 @@ section.success a.active {
     }
 }
 
+#integrate1{
+  background-image: url(../img/angular.gif);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+#integrate2{
+  background-image: url(../img/facebook.jpeg);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+#integrate3{
+  background-image: url(../img/mailchimp.jpeg);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+#integrate4{
+  background-image: url(../img/google.jpg);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+#integrate5{
+  background-image: url(../img/paypal.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+#integrate6{
+  background-image: url(../img/firebase.jpg);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+#integrate1,#integrate2,#integrate3,#integrate4,#integrate5,#integrate6{
+   margin: 10px;
+  
+}
+@media(max-width:760px){
+    #integrate1,#integrate2,#integrate3,#integrate4,#integrate5,#integrate6, #more{
+        
+        display: none;
+    }
+    
+    
+}
+#more{
+    margin-top: 230px;
+}
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
@@ -488,6 +573,8 @@ form .row:first-child .floating-label-form-group {
 
 footer {
     color: #fff;
+    width: 200%;
+    margin-left: -300px;
     
 }
 
@@ -635,12 +722,13 @@ footer .footer-below {
          margin: 15px;  
     }
     #socialicons{
-        width: 20px;
-        height: 20px;
-        background-size: 20px,20px;
+        width: 40px;
+        height: 40px;
+        background-size: 40px,40px;
         background-repeat: no-repeat;
         margin-top: 20px;
         float: left;
+        
         
     }
     #email{
@@ -650,6 +738,10 @@ footer .footer-below {
 <<<<<<< Updated upstream
         width: 400px;
         padding-left: 5px;
+    }
+    footer{
+        margin-left: -90px;
+        
     }
     
 }
@@ -662,15 +754,25 @@ footer .footer-below {
         float: left;
     }
     
+    
+}
+@media(max-width:461px){
+    
+    #buynow{
+        margin-left: 22%;
+    }
 }
 @media(min-width:1440px){
     #promos{
-       left: 200px;
+       left:200px ;
         padding: 110px;
     }
     .main-image{
         left: 30px;
 >>>>>>> Stashed changes
+    }
+    footer{
+        margin-left: -400px;
     }
     
 }
